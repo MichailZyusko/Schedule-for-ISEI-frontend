@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState, useEffect } from 'react';
 import MyHeader from './components/header';
 import MyMain from './components/main';
