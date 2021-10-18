@@ -1,0 +1,16 @@
+.button{
+    /*width: 7%;*/
+    width: 90px;
+    background: #EC692F !important;
+    border-radius: 15px !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 500px) {
+    .button {
+        width: 35%;
+        height: 35px;
+        align-self: center;
+        margin-top: 20px !important;
+    }
+}

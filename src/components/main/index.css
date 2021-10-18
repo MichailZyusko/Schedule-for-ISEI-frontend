@@ -1,0 +1,16 @@
+.container{
+    width: 320px;
+    height: 70vh;
+    display: flex;
+    margin: auto;
+    background: rgba(163, 161, 167, 1);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+}

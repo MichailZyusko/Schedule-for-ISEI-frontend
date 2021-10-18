@@ -1,0 +1,68 @@
+.accordion {
+    margin: 0 10px 10px 10px;
+}
+
+.accordion:hover {
+    cursor: pointer;
+}
+
+.bubble[aria-expanded="true"] {
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.15);
+}
+
+.accordion-content {
+    position: relative;
+    top: -25px;
+    background: #D6CECB;
+    border-radius: 15px;
+    z-index: -1;
+
+    overflow: hidden;
+    max-height: 1000px;
+    transition: max-height 1s ease-in-out;
+}
+
+.accordion-content[aria-expanded="true"] {
+    max-height: 0;
+    margin-bottom: 0;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.teacher{
+    background: #B1A9A6 !important;
+    border-radius: 20px;
+    color: white !important;
+    padding: 15px;
+    margin: 35px 10px 5px 10px;
+}
+
+.time, .place {
+    display: flex;
+    flex: 1;
+    padding: 3px;
+    flex-direction: column;
+    align-self: center;
+}
+
+.vl {
+    background: white;
+    width: 1px;
+    display: flex;
+    margin: 0 5px;
+}
+
+.lesson {
+    display: flex;
+    flex: 8;
+    margin: 10px 0 10px 0;
+    align-self: center;
+}
+
+.bubble {
+    background: #E4DCD9;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}

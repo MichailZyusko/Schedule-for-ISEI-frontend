@@ -1,0 +1,11 @@
+.input {
+    width: 15%;
+}
+
+@media screen and (max-width: 500px) {
+    .input {
+        align-self: center;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}

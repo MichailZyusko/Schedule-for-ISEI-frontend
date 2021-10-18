@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 25px;
+    padding: 20px 0;
+
+    border-top: solid #CDCCD1 1px;
+    border-bottom: solid #CDCCD1 1px;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        border: none;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,35 @@
+.bubble-skeleton {
+    background: #E4DCD9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.time-skeleton, .place-skeleton {
+    align-self: center;
+    padding: 5px;
+    width: 10%;
+}
+
+.vl-skeleton{
+    background: white;
+    width: 1px;
+    height: 7vh;
+}
+
+.lesson-skeleton {
+    width: 75%;
+    padding: 5px;
+    align-self: center;
+}
+
+.date-skeleton {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px;
+    border-bottom: 1px solid #FFF;
+    margin: 0 20px;
+}

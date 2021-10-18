@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+.carousel{
+    display: flex;
+    flex: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+
+.day-of-month {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
+
+.day-of-week {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 26px;
+
+    color: #F87B44;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFF;
+    margin: 0 20px 10px 20px;
+}
+
+.schedule {
+    overflow: scroll;
+    max-height: 65vh;
+}
