@@ -39,6 +39,7 @@ function App() {
     const departments = localStorage.getItem('departments');
     const courses = localStorage.getItem('courses');
     const groups = localStorage.getItem('groups');
+    const date = localStorage.getItem('dates');
 
     if (faculties && departments && courses && groups) {
       setSchedule([...await getSchedule({
@@ -46,6 +47,7 @@ function App() {
         departments,
         courses,
         groups,
+        date
       })]);
     } else {
       alert('Пожалуйста, выберете все значения');
