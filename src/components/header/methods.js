@@ -5,12 +5,7 @@ const optionsURL = 'https://schedule-for-isei.herokuapp.com/api/metainfo?faculty
 
 const getSchedule = async ({faculties,departments, courses, groups, date}) => {
   try {
-    const response = await fetch(`${scheduleURL}
-    faculties=${faculties}&
-    departments=${departments}&
-    courses=${courses}&
-    groups=${groups}&
-    dates=${date}`);
+    const response = await fetch(`${scheduleURL}faculties=${faculties}&departments=${departments}&courses=${courses}&groups=${groups}&dates=${date}`);
 
     return response.ok ? response.json() : null;
   } catch (e) {
