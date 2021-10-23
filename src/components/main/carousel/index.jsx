@@ -15,8 +15,8 @@ const carousel = ({ timeTable }) => (
     className="carousel"
   >
     {
-            timeTable.map((item, i) => <Item key={i} item={item} />)
-        }
+        timeTable.map((item, i) => <Item key={i} item={item} />)
+    }
   </Carousel>
 );
 
