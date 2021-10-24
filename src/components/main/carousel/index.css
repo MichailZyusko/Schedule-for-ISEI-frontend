@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
 
-.carousel{
+.carousel {
     display: flex;
     flex: 1;
     position: relative;
@@ -15,15 +15,17 @@
 
 
 .day-of-month {
-    font-family: 'Noto Sans Display', sans-serif;
-    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Noto Sans Display', sans-serif;*/
+    font-size: 18px;
 
     color: #FFFFFF;
 }
 
 .day-of-week {
-    font-family: 'Noto Sans Display', sans-serif;
-    font-size: 26px;
+    font-family: 'Montserrat', sans-serif, monospace;
+    /*font-family: 'Noto Sans Display', sans-serif;*/
+    font-size: 24px;
 
     color: #F87B44;
 }
@@ -32,12 +34,23 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #FFF;
-    margin: 0 20px 10px 20px;
+    margin: 15px 20px 10px 20px;
 }
 
 .schedule {
     overflow: scroll;
     max-height: 65vh;
 }
+
+@media screen and (max-width: 500px) {
+    .day-of-month {
+        font-size: 16px;
+    }
+
+    .day-of-week {
+        font-size: 22px;
+    }
+}
+

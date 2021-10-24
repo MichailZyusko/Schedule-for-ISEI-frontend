@@ -30,12 +30,12 @@ const BubbleStub = () => (
 );
 
 const carousel = () => (
-  <div>
+  <div className="wrapper-skeleton">
     <div className="date-skeleton">
-      <Typography component="div" width={150} variant="h3">
+      <Typography component="div" width={140} variant="h3">
         <Skeleton />
       </Typography>
-      <Typography component="div" width={100} variant="h4">
+      <Typography component="div" width={90} variant="h4">
         <Skeleton />
       </Typography>
     </div>

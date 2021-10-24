@@ -13,7 +13,7 @@
     width: 10%;
 }
 
-.vl-skeleton{
+.vl-skeleton {
     background: white;
     width: 1px;
     height: 7vh;
@@ -32,4 +32,10 @@
     padding: 5px;
     border-bottom: 1px solid #FFF;
     margin: 0 20px;
+}
+
+.wrapper-skeleton {
+    margin: auto;
+    width: 95%;
+    margin-top: -7px;
 }

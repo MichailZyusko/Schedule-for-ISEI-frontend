@@ -4,17 +4,24 @@
     justify-content: space-around;
 
     margin: 25px;
-    padding: 20px 0;
+}
 
+hr {
+    border: none;
     border-top: solid #CDCCD1 1px;
-    border-bottom: solid #CDCCD1 1px;
+    margin: 25px;
 }
 
 @media screen and (max-width: 500px) {
     .header {
-        border: none;
         flex-direction: column;
         width: 90%;
-        margin: auto;
+        align-self: center;
+        height: 35vh;
+        padding: 35px 0;
+    }
+
+    .wrapper {
+        margin: calc((60vh - 70px) / 2) 0;
     }
 }
