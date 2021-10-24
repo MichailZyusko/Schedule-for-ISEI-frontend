@@ -30,6 +30,7 @@ const Bubble = ({ item }) => {
           <div className="accordion-content" aria-expanded={!isOpen}>
             <div className="teacher">
               <div>{item.teacher}</div>
+              <div>{item.subgroup}</div>
             </div>
           </div>
         ) : null}

@@ -50,6 +50,9 @@
 }
 
 .teacher {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     background: #B1A9A6 !important;
     border-radius: 20px;
     padding: 15px;
