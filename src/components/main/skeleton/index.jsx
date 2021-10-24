@@ -4,6 +4,8 @@ import Typography from '@mui/material/Typography';
 
 import './index.css';
 
+const { width } = window.screen;
+
 const PlaceStub = () => (
   <div className="place-skeleton">
     <Typography component="div" variant="caption">
@@ -32,10 +34,10 @@ const BubbleStub = () => (
 const carousel = () => (
   <div className="wrapper-skeleton">
     <div className="date-skeleton">
-      <Typography component="div" width={window.screen.width / 3} variant="h3">
+      <Typography component="div" width={width / (width < 500 ? 3 : 12)} variant="h3">
         <Skeleton />
       </Typography>
-      <Typography component="div" width={window.screen.width / 4} variant="h4">
+      <Typography component="div" width={width / (width < 500 ? 4.5 : 15)} variant="h4">
         <Skeleton />
       </Typography>
     </div>
