@@ -56,6 +56,7 @@ const Input = ({options, label, name, onSelect}) => {
           variant="standard"
           InputProps={{
             ...params.InputProps,
+            readOnly: true,
             endAdornment: (
               <>
                 {loading ? <CircularProgress color="inherit" size={20}/> : null}
