@@ -1,7 +1,7 @@
 /* eslint-disable */
 
-const scheduleURL = 'https://schedule-for-isei.herokuapp.com/api/schedule?';
-const optionsURL = 'https://schedule-for-isei.herokuapp.com/api/metainfo?';
+const scheduleURL = 'https://ck5xgi252d.execute-api.us-east-2.amazonaws.com/dev/api/v1/schedule?';
+const optionsURL = 'https://ck5xgi252d.execute-api.us-east-2.amazonaws.com/dev/api/v1/metainfo?';
 
 const getSchedule = async ({faculties,departments, courses, groups, date}) => {
   try {
